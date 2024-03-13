@@ -1,5 +1,0 @@
-birth_year = input("what year were you born?:")
-print(int(birth_year))
-print(f"You are birth year: ${birth_year}")
-oldAge = 2024 - int(birth_year)
-print(f"You\'r ${oldAge} years old")
