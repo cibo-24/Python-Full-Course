@@ -1,6 +1,6 @@
 # Functions - Parameters
-
 # Positional Parametreler bir fonksiyona değişken olarak geçilir.
+
 def say_hello(name, emoji):
     print(f"hellooooo {name} and {emoji}")
 
@@ -10,3 +10,8 @@ say_hello("Cibo",":(")
 
 # Keyword Arguments
 say_hello(emoji=":)", name="Ozan")
+
+# Default Parameters
+
+def say_hi(name="Kenan", emoji=":)"):
+    print(f"Hello {name} and {emoji}")
